@@ -3,8 +3,8 @@
 A premium, high-fidelity single-page portfolio hub linking all 9 other frontend projects and UI clones built for Girish.
 
 ## 🔗 Live Demo & Repository
-* **Live Demo:** [https://girish.github.io/portfolio-hub/](https://girish.github.io/portfolio-hub/)
-* **Code Repository:** [https://github.com/girish/portfolio-hub](https://github.com/girish/portfolio-hub)
+* **Live Demo:** [https://gh-iris.github.io/Portfolio/](https://gh-iris.github.io/Portfolio/)
+* **Code Repository:** [https://github.com/GH-IRIS/Portfolio](https://github.com/GH-IRIS/Portfolio)
 
 ---
 
