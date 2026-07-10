@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girish | Personal Portfolio Hub</title>
+  <meta name="description" content="Personal Portfolio Hub of Girish - Full Stack Developer. Hosting all builds in one single page.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="bg-glow-container">
+    <div class="glowing-orb orb-1"></div>
+    <div class="glowing-orb orb-2"></div>
+    <div class="glowing-orb orb-3"></div>
+  </div>
+  
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Girish<span>&lt;/&gt;</span></a>
+      
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link highlight-link">Projects</a>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="welcome-tag">Welcome to my space</span>
+          <h1 class="hero-title">Hi, I'm <span class="gradient-text">Girish</span></h1>
+          <h2 class="hero-subtitle">Full stack developer</h2>
+          <p class="hero-desc">
+            Crafting modern, responsive, and user-friendly web applications with passion and precision. Exploring deep backend structures and beautiful frontend systems.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore Builds <i class="fas fa-arrow-right"></i>
+            </a>
+            <div class="social-links-row">
+              <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="mailto:contact@girish.dev" class="social-icon" aria-label="Email"><i class="far fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-image-wrapper">
+          <div class="avatar-container">
+            <div class="orbiting-ring ring-1"></div>
+            <div class="orbiting-ring ring-2"></div>
+            <div class="avatar-circle">
+              <img src="assets/girish_avatar.png" alt="Girish Avatar" class="avatar-img">
+            </div>
+            <!-- Tech Floating Badges -->
+            <div class="floating-badge badge-js" title="JavaScript">
+              <i class="fab fa-js"></i>
+            </div>
+            <div class="floating-badge badge-react" title="React">
+              <i class="fab fa-react"></i>
+            </div>
+            <div class="floating-badge badge-node" title="Node.js">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <div class="floating-badge badge-css" title="CSS3">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-indicator">
+        <a href="#about" aria-label="Scroll Down">
+          <span class="mouse">
+            <span class="wheel"></span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Me Section (with integrated Skills) -->
+    <section id="about" class="about-section">
+      <div class="section-container">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-grid">
+          <div class="about-image-wrapper">
+            <div class="about-avatar-container">
+              <img src="assets/about_avatar.jpg" alt="Girish Coding" class="about-avatar-img">
+            </div>
+          </div>
+          
+          <div class="about-content">
+            <h3 class="about-subtitle">I'm <span class="text-accent">Girish</span></h3>
+            <p class="about-text">
+              I am a passionate Full Stack Developer and Software Engineer. I specialize in building complete, end-to-end web applications and pixel-close user interfaces.
+            </p>
+            <p class="about-text" style="margin-bottom: 35px;">
+              My journey involves building interactive projects ranging from e-commerce systems to responsive clones of platforms like Spotify, Netflix, and LinkedIn. I love tackling complex layouts and creating seamless micro-animations.
+            </p>
+            
+            <!-- Integrated Technical Skills block replacing Services List -->
+            <div class="skills-block-inline">
+              <h4 class="skills-inline-title">Technical Expertise</h4>
+              <div class="skills-badges-container">
+                <div class="skill-badge html-badge">
+                  <i class="fab fa-html5 skill-icon"></i>
+                  <span class="skill-name">HTML5</span>
+                </div>
+                <div class="skill-badge css-badge">
+                  <i class="fab fa-css3-alt skill-icon"></i>
+                  <span class="skill-name">CSS</span>
+                </div>
+                <div class="skill-badge js-badge">
+                  <i class="fab fa-js skill-icon"></i>
+                  <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill-badge react-badge">
+                  <i class="fab fa-react skill-icon"></i>
+                  <span class="skill-name">React.js</span>
+                </div>
+                <div class="skill-badge node-badge">
+                  <i class="fab fa-node-js skill-icon"></i>
+                  <span class="skill-name">Node.js</span>
+                </div>
+                <div class="skill-badge python-badge">
+                  <i class="fab fa-python skill-icon"></i>
+                  <span class="skill-name">Python</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (Both Grids) -->
+    <section id="projects" class="projects-hub-container">
+      <div class="section-container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="projects-main-desc text-center">
+          Explore a curated collection of my webpages. The first grid highlights core webpages built with full functionality. The second grid showcases the "Clone Wall"—pixel-perfect mockups of famous platform interfaces.
+        </p>
+
+        <!-- GRID 1: CORE PROJECTS -->
+        <div class="grid-section" style="padding-top: 0;">
+          <h3 class="grid-section-title"><span class="grid-number">01</span> Core Builds</h3>
+          <p class="grid-section-desc">Practical, fully-functional web applications solving specific layout and flow problems.</p>
+          
+          <div class="projects-grid">
+            
+            <!-- E-commerce Website -->
+            <div class="project-card core-card" data-tech="vanilla-js clerk-auth localstorage">
+              <div class="card-image-container">
+                <img src="assets/project_checkout.jpg" alt="E-commerce Checkout UI" class="project-img">
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">E-commerce Website</h4>
+                <p class="project-desc">
+                  A complete shopping checkout flow: landing page to detailed catalog (12+ items), interactive shopping cart, and protected checkout.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+            <!-- Food Delivery App -->
+            <div class="project-card core-card" data-tech="vanilla-js clerk-auth">
+              <div class="card-image-container">
+                <img src="assets/project_food.jpg" alt="Food Delivery App" class="project-img">
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">Food Delivery App</h4>
+                <p class="project-desc">
+                  A Swiggy-style interface allowing food ordering. Features comprehensive filters, interactive cart updates, and location checkout.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+            <!-- Product Landing Page -->
+            <div class="project-card core-card" data-tech="css-animations magic-ui">
+              <div class="card-image-container">
+                <img src="assets/project_watch.jpg" alt="Luxury Watch Landing Page" class="project-img">
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">Product Landing Page</h4>
+                <p class="project-desc">
+                  High-end showcase of a premium luxury smartwatch designed to maximize visual delight. Features display typography and parallax sections.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+            <!-- Tap Academy Clone -->
+            
+
+            <!-- College Fest Landing Page -->
+            <div class="project-card core-card" data-tech="vanilla-js marquee css-animation">
+              <div class="card-image-container">
+                <img src="assets/project_clinic.jpg" alt="College Fest Landing Page" class="project-img">
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">College Fest Landing Page</h4>
+                <p class="project-desc">
+                  An event landing site featuring countdown metrics, interactive schedules, registrations, and sponsor scrolling tickers.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- GRID 2: CLONE WALL -->
+        <div class="grid-section" style="padding-top: 20px;">
+          <h3 class="grid-section-title"><span class="grid-number">02</span> The Clone Wall</h3>
+          <p class="grid-section-desc">Sleek, highly responsive layouts replicating the user interfaces of top-tier platforms.</p>
+          
+          <div class="projects-grid">
+            
+            <!-- Tap Academy Clone -->
+            <div class="project-card core-card" data-tech="css-grid responsive">
+              <div class="card-image-container">
+                <img src="assets/project_agrifood.jpg" alt="Tap Academy Clone" class="project-img">
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">Tap Academy Clone</h4>
+                <p class="project-desc">
+                  A pixel-close replica of the Tap Academy homepage. Designed to master absolute layouts, courses tables, and placement graphs.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="../tapacademy-clone/index.html" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+            
+            <!-- Instagram Clone -->
+            <div class="project-card clone-card insta-hover" data-tech="flexbox scroll js-clicks">
+              <div class="card-image-container">
+                <div class="card-placeholder-image instagram-preview">
+                  <div class="mini-stories-container">
+                    <div class="mini-story-ring active"><div></div></div>
+                    <div class="mini-story-ring active"><div></div></div>
+                    <div class="mini-story-ring active"><div></div></div>
+                    <div class="mini-story-ring"><div></div></div>
+                  </div>
+                  <div class="mini-post-actions">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">Instagram Clone</h4>
+                <p class="project-desc">
+                  Replicates the core IG mobile layout: horizontal-scroll story feeds, standard post feeds with interactive actions, and the profile photo grid.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="../instagram-clone/index.html" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+            <!-- LinkedIn Clone -->
+            <div class="project-card clone-card linkedin-hover" data-tech="css-grid responsive-layout">
+              <div class="card-image-container">
+                <div class="card-placeholder-image linkedin-preview">
+                  <div class="linkedin-mini-grid">
+                    <div class="mini-panel sidebar"></div>
+                    <div class="mini-panel feed">
+                      <div class="mini-post-box"></div>
+                      <div class="mini-post-box"></div>
+                    </div>
+                    <div class="mini-panel widgets"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">LinkedIn Clone</h4>
+                <p class="project-desc">
+                  A masterpiece layout using CSS Grid replicating the classic 3-column web page (profile banner left, post feed center, news widgets right).
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="../linkedin-clone/index.html" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+            <!-- Spotify Clone -->
+            <div class="project-card clone-card spotify-hover" data-tech="app-shell sticky-bar audio-js">
+              <div class="card-image-container">
+                <div class="card-placeholder-image spotify-preview">
+                  <div class="spotify-sidebar"></div>
+                  <div class="spotify-main"></div>
+                  <div class="spotify-bar">
+                    <div class="mini-play-btn"><i class="fas fa-play"></i></div>
+                    <div class="mini-progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">Spotify Clone</h4>
+                <p class="project-desc">
+                  A dark-themed music player dashboard. Consists of a fixed sidebar navigation, scrollable album grid, and a sticky playback bar at the bottom.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="../spotify-clone/index.html" class="btn btn-secondary"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+            <!-- Netflix Clone -->
+            <div class="project-card clone-card netflix-hover" data-tech="hover-scale scroll-js transparent-nav">
+              <div class="card-image-container">
+                <div class="card-placeholder-image netflix-preview">
+                  <div class="netflix-mini-hero">N</div>
+                  <div class="netflix-mini-row">
+                    <div></div><div></div><div></div><div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <h4 class="project-title">Netflix Clone</h4>
+                <p class="project-desc">
+                  A browse layout featuring a full-width video hero banner, horizontal scroll paths, and a navigation bar that changes solid on page scroll.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://gh-iris.github.io/Netflex/" class="btn btn-secondary" target="_blank"><i class="fas fa-eye"></i> View Live</a>
+                <a href="https://github.com/GH-IRIS/Netflex" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Repository</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="#home" class="logo">Girish<span>&lt;/&gt;</span></a>
+        <p class="copyright">&copy; <span id="current-year">2026</span> Girish. All rights reserved.</p>
+      </div>
+      <div class="footer-center">
+        <!-- CONTACT LOGOS IN THE FOOTER -->
+        <div class="contact-logos">
+          <a href="https://github.com" target="_blank" class="contact-logo-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="contact-logo-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:contact@girish.dev" class="contact-logo-link" aria-label="Email"><i class="far fa-envelope"></i></a>
+          <a href="https://wa.me/1234567890" target="_blank" class="contact-logo-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
