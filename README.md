@@ -1,4 +1,4 @@
-# 📂 Girish Kumar's Frontend Portfolio Hub
+# 📂 Girish Naik's Frontend Portfolio Hub
 
 > A centralized landing deck hosting all frontend projects built during TAP Academy training.
 
