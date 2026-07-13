@@ -9,7 +9,7 @@
   
 **About section** — I am a passionate Full Stack Developer and Software Engineer. I specialize in building complete, end-to-end web applications and pixel-close user interfaces.My journey involves building interactive projects ranging from e-commerce systems to responsive clones of platforms like Spotify, Netflix, and LinkedIn. I love tackling complex layouts and creating seamless micro-animations.
 
-**Skills section** — HTML5,CSS,JavaScript,React.js,Node.js,Python.
+**Skills section** — HTML5, CSS, JavaScript, React.js, Node.js, Python.
   
 
 ## 🗂 My 10 Projects
