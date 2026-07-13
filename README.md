@@ -1,20 +1,38 @@
-# 📂 Girish Naik's Frontend Portfolio Hub
+# 👋 Hi, I'm Girish Naik
 
-> A centralized landing deck hosting all frontend projects built during TAP Academy training.
+**Frontend developer in training @ TAP Academy, Bangalore** — building with HTML, CSS & AI tools.
 
-🔗 **Live Portfolio:** https://GH-IRIS.github.io/Portfolio/ · **Code:** https://github.com/GH-IRIS/Portfolio
+🔗 **Live Portfolio:** [https://GH-IRIS.github.io/Portfolio/](https://GH-IRIS.github.io/Portfolio/)
 
-## 📸 Screenshots
-![Portfolio Hub Screenshot](https://picsum.photos/600/300?random=91)
+## 🧭 What's inside
+- **Hero section** — who I am in one line
+- **About section** — my story & photo
+- **Skills section** — HTML · CSS · AI-assisted development · Git & GitHub
+- **Projects section** — all 10 of my live projects with demo + code links
+- **Contact section** — let's talk
 
-## ✅ Features
-- Centralized showcase of all core apps and pixel-perfect clones.
-- Connected Live links (deployed on GitHub Pages) and code repositories.
-- Glassmorphic panels with interactive tabs.
-- Full responsive structure from mobile to widescreen monitors.
+## 🗂 My 10 Projects
+| # | Project | Live | Code |
+|---|---------|------|------|
+| 1 | Portfolio Hub | [Live Demo](https://GH-IRIS.github.io/Portfolio/) | [GitHub Repo](https://github.com/GH-IRIS/Portfolio) |
+| 2 | E-commerce Website (TaiZone) | [Live Demo](https://GH-IRIS.github.io/TAIZONE/) | [GitHub Repo](https://github.com/GH-IRIS/TAIZONE) |
+| 3 | Food Delivery App (TaiBites) | [Live Demo](https://GH-IRIS.github.io/TAIBITES/) | [GitHub Repo](https://github.com/GH-IRIS/TAIBITES) |
+| 4 | Chronos Watch Showcase | [Live Demo](https://GH-IRIS.github.io/Product_page/) | [GitHub Repo](https://github.com/GH-IRIS/Product_page) |
+| 5 | TAP Academy Clone | [Live Demo](https://GH-IRIS.github.io/tai_academy/) | [GitHub Repo](https://github.com/GH-IRIS/tai_academy) |
+| 6 | Laugh Riot Comedy Festival | [Live Demo](https://GH-IRIS.github.io/College_fest/) | [GitHub Repo](https://github.com/GH-IRIS/College_fest) |
+| 7 | Instagram UI Clone | [Live Demo](https://GH-IRIS.github.io/INSTAGRAAM/) | [GitHub Repo](https://github.com/GH-IRIS/INSTAGRAAM) |
+| 8 | Spotify UI Clone | [Live Demo](https://GH-IRIS.github.io/Spotiffy/) | [GitHub Repo](https://github.com/GH-IRIS/Spotiffy) |
+| 9 | LinkedIn UI Clone | [Live Demo](https://GH-IRIS.github.io/LINKEDOUT/) | [GitHub Repo](https://github.com/GH-IRIS/LINKEDOUT) |
+| 10 | Netflix UI Clone | [Live Demo](https://GH-IRIS.github.io/Netflex/) | [GitHub Repo](https://github.com/GH-IRIS/Netflex) |
 
 ## 🛠 Tech Stack
-HTML5 · CSS3 · Vanilla JS · GitHub Pages
+HTML5 · CSS3 · AI-assisted features (built with Antigravity Code Assistant) · Deployed on GitHub Pages
+
+## 🤖 How I used AI
+I designed and wrote the HTML structure and CSS layouts myself; I used Antigravity Code Assistant to build the responsive layout grids, organize glassmorphic panels, and debug smooth navigation transitions.
+
+## 📚 What I learned
+I learned to structure clean layout decks with CSS Grid, implement responsive tab controls with vanilla JavaScript, and centralize multiple subprojects under a single deployed portfolio hub.
 
 ---
 
@@ -26,7 +44,7 @@ This project was built during my frontend training at **[TAP Academy](https://th
 - 🚀 **Get placed in 60 days** — dedicated placement track with daily placement drives
 - 🥽 **Augmented Reality (AR) classrooms** — concepts you can see, not just read
 - 🎤 **Weekly mock interviews** with real-time feedback
-- 👨🏫 **1-on-1 mentorship** and round-the-clock doubt support
+- 👨‍🏫 **1-on-1 mentorship** and round-the-clock doubt support
 - 💻 Courses in **Java, Python, Full Stack Development, Data Science & AI**
 
 ### ❓ FAQ
