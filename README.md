@@ -5,11 +5,12 @@
 🔗 **Live Portfolio:** [https://GH-IRIS.github.io/Portfolio/](https://GH-IRIS.github.io/Portfolio/)
 
 ## 🧭 What's inside
-- **Hero section** — who I am in one line
-- **About section** — my story & photo
-- **Skills section** — HTML · CSS · AI-assisted development · Git & GitHub
-- **Projects section** — all 10 of my live projects with demo + code links
-- **Contact section** — let's talk
+**Hero section** — I am Girish naik ,a Full Stack Developer in trainng
+  
+**About section** — I am a passionate Full Stack Developer and Software Engineer. I specialize in building complete, end-to-end web applications and pixel-close user interfaces.My journey involves building interactive projects ranging from e-commerce systems to responsive clones of platforms like Spotify, Netflix, and LinkedIn. I love tackling complex layouts and creating seamless micro-animations.
+
+**Skills section** — HTML5,CSS,JavaScript,React.js,Node.js,Python.
+  
 
 ## 🗂 My 10 Projects
 | # | Project | Live | Code |
@@ -29,16 +30,15 @@
 HTML5 · CSS3 · AI-assisted features (built with Antigravity Code Assistant) · Deployed on GitHub Pages
 
 ## 🤖 How I used AI
-I designed and wrote the HTML structure and CSS layouts myself; I used Antigravity Code Assistant to build the responsive layout grids, organize glassmorphic panels, and debug smooth navigation transitions.
+I used Antigravity Code Assistant to build the responsive layout grids, organize glassmorphic panels, and debug smooth navigation transitions. 
+i created my hero avatar using gemini(tried using claude but the time taken for generating was too long so went with gemini)
 
 ## 📚 What I learned
 I learned to structure clean layout decks with CSS Grid, implement responsive tab controls with vanilla JavaScript, and centralize multiple subprojects under a single deployed portfolio hub.
 
 ---
 
-## 🎓 About TAP Academy
-
-This project was built during my frontend training at **[TAP Academy](https://thetapacademy.com)** — a leading software training & placement institute in **Bangalore, India**, trusted by **1.5+ lakh students**.
+## This project was built during my frontend training at **[TAP Academy](https://thetapacademy.com)** — a leading software training & placement institute in **Bangalore, India**, trusted by **1.5+ lakh students**.
 
 **Why students choose TAP Academy:**
 - 🚀 **Get placed in 60 days** — dedicated placement track with daily placement drives
